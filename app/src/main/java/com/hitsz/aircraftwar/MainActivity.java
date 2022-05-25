@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         easyButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,EasyActivity.class);
+                Intent intent = new Intent(MainActivity.this,GameActivity.class);
                 startActivity(intent);
             }
         });
@@ -28,14 +28,14 @@ public class MainActivity extends AppCompatActivity {
         normalButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,NormalActivity.class);
+                Intent intent = new Intent(MainActivity.this,GameActivity.class);
                 startActivity(intent);
             }
         });
         hardButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,HardActivity.class);
+                Intent intent = new Intent(MainActivity.this,GameActivity.class);
                 startActivity(intent);
             }
         });
