@@ -4,7 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/android_development/AircraftWar/app/src/main/res/layout/activity_easy.xml" value="0.24547101449275363" />
+        <entry key="..\:/android_development/AircraftWar/app/src/main/res/layout/activity_hard.xml" value="0.1" />
         <entry key="..\:/android_development/AircraftWar/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/android_development/AircraftWar/app/src/main/res/layout/activity_normal.xml" value="0.1" />
+        <entry key="..\:/coding/android_study/AircraftWar/app/src/main/res/layout/activity_easy.xml" value="0.12135416666666667" />
+        <entry key="..\:/coding/android_study/AircraftWar/app/src/main/res/layout/activity_hard.xml" value="0.12135416666666667" />
+        <entry key="..\:/coding/android_study/AircraftWar/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/coding/android_study/AircraftWar/app/src/main/res/layout/activity_normal.xml" value="0.176" />
       </map>
     </option>
   </component>
