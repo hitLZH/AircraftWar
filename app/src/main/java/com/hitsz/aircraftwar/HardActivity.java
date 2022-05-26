@@ -5,7 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class HardActivity extends AppCompatActivity {
-    //第二次
+
+    //一点点修改
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
