@@ -16,7 +16,7 @@ public class HeroAircraft extends AbstractAircraft{
 //            Main.WINDOW_WIDTH / 2,
 //            Main.WINDOW_HEIGHT - ImageManager.HERO_IMAGE.getHeight() ,
 //            0, 0, 10000);
-    private static HeroAircraft heroAircraft=null;
+    private static HeroAircraft heroAircraft=new HeroAircraft(10,10,10,10,100);
 
 
     /**
@@ -34,8 +34,13 @@ public class HeroAircraft extends AbstractAircraft{
         this.setShootStrategy(new StraightShootStrategy());
     }
 
-    public void heroInit(){
-
+    public void init(){
+            this.locationX=10;
+            this.locationY=10;
+            this.hp=100;
+            this.power=30;
+            this.numOfBullet=1;
+            this.setShootStrategy(new StraightShootStrategy());
         //TODO 单例模式下每次重新使用英雄机，参数需依赖界面图片指定
 //        this.locationX=Main.WINDOW_WIDTH / 2;
 //        this.locationY=Main.WINDOW_HEIGHT - ImageManager.HERO_IMAGE.getHeight();

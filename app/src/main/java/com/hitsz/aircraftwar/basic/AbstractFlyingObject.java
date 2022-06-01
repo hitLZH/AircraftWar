@@ -166,5 +166,16 @@ public abstract class AbstractFlyingObject {
     public abstract void getEffected(AbstractProp abstractProp);
 
 
-
+    @Override
+    public String toString() {
+        return "AbstractFlyingObject{" +
+                "locationX=" + locationX +
+                ", locationY=" + locationY +
+                ", speedX=" + speedX +
+                ", speedY=" + speedY +
+                ", width=" + width +
+                ", height=" + height +
+                ", isValid=" + isValid +
+                '}';
+    }
 }
